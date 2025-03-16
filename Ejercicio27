@@ -1,0 +1,33 @@
+Ejercicio 27. Explique los siguientes conceptos:
+1.⁠ ⁠Prueba de caja blanca.
+
+Es una técnica de prueba en la que se verifica el correcto funcionamiento interno del programa. La persona que evalúa tiene conocimiento sobre el código fuente, 
+lo que le permite diseñar pruebas que validen las rutas de ejecución, las estructuras de datos y el flujo de control del programa. El objetivo es garantizar 
+que el código interno funcione como se espera.
+
+2.⁠ ⁠Prueba de caja negra.
+
+Se enfoca en verificar el comportamiento del software comparando las salidas obtenidas con las esperadas para una entrada determinada, sin necesidad de conocer 
+su estructura interna. Las pruebas se realizan basándose únicamente en los requisitos y las especificaciones del sistema, evaluando cómo responde a entradas y 
+si produce las salidas correctas.
+
+3.⁠ ⁠Prueba unitaria.
+
+Esta prueba se realiza sobre unidades mínimas de código, como métodos o funciones. El objetivo es comprobar que cada unidad funcione de manera aislada, sin depender
+ de otras partes del sistema. Generalmente, se automatizan para comprobar rápidamente que cada método o función cumpla con su objetivo sin errores.
+
+
+4.⁠ ⁠Prueba de integración.
+
+Se realiza para evaluar la interacción entre distintos módulos del sistema. La prueba se enfoca en asegurar que las unidades de código, que han sido verificadas previamente,
+ trabajen correctamente juntas. Se realiza en fases, comenzando por integrar módulos específicos antes de la integración total del sistema para evitar la acumulación de errores.
+
+5.⁠ ⁠Prueba de sistema.
+
+En esta prueba, se evalúa el funcionamiento completo del sistema, considerando todos los componentes y su interacción. Se realiza en un entorno controlado que simula condiciones
+ reales de uso. El objetivo es garantizar que todo el sistema funcione como se espera y cumpla con los requisitos especificados.
+
+6.⁠ ⁠Prueba de aceptación
+
+Es la última fase de pruebas, realizada en colaboración con el cliente. Incluye dos etapas: fase Alfa (en el entorno de desarrollo, con el cliente supervisado por los desarrolladores)
+y fase Beta (en el entorno del cliente sin supervisión directa). Estas pruebas determinan si el sistema cumple con las expectativas del cliente y está listo para su uso en producción.
